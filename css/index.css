@@ -1,0 +1,45 @@
+.banner-index {
+  min-height: 75rem;
+  background-image: url(../img/lamp.jpg);
+  background-size: cover;
+}
+
+
+.leyenda {
+  padding-top: 25rem;
+  text-align: center;
+  font-size: var(--titulo-h2);
+  color: white;
+}
+.btn_banner {
+  display: block;
+  width: 9rem;
+  margin: auto;
+  text-align: center;
+  color: var(--color4);
+  text-decoration: none;
+  padding: 0.7rem;
+  margin-top: 1.5rem;
+  background-color: var(--color3);
+  transition: 0.3s;
+  border-radius: 0.5px;
+  font-size: var(--titulo-h3);
+}
+.btn_banner:hover {
+  width: 15rem;
+  transition: 0.3s;
+  border-radius: 20px;
+  background-color: var(--color2);
+}
+
+
+
+@media screen and (max-width: 769px) {
+  /* STYLES HERE */
+  .banner-index{
+    background-image: url(../img/responsive.jpg);
+  }
+  .leyenda{
+    font-size: var(--parrafo);
+  }
+}

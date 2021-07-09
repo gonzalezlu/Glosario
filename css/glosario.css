@@ -1,0 +1,80 @@
+@font-face {
+  font-family: comicsan;
+  src: url(../font/comic.ttf);
+}
+
+@font-face {
+  font-family: decorativa;
+  src: url(../font/BrownSugar.otf);
+}
+
+.intro {
+  font-size: 13.5px;
+  padding: 50px 60px 15px 60px;
+  text-align: center;
+  font-family: comicsan;
+}
+
+.titulo {
+  background: var(--color1);
+  color: var(--color2);
+  font-size: 60px;
+  font-family: decorativa;
+  text-align: center;
+}
+
+.no1 {
+  height: 377.7px;
+  width: 988.8543px;
+  margin: 15px 305.5728px 10px 205.5728px;
+  box-sizing: border-box;
+}
+
+.no2 {
+  text-align: center;
+  font-family: comicsan;
+  margin: 0px 5px 0px 0px;
+  padding: 5px;
+}
+
+.idiomasuno {
+  padding: 15px;
+  color: black;
+  background-color: var(--color4);
+}
+
+.idiomas {
+  padding: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.title1 {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  background-color: var(--color1);
+  font-family: decorativa;
+  font-size: 34px;
+  color: var(--color1);
+}
+
+.title {
+  width: 150px;
+  height: 40px;
+  font-family: comicsan;
+  background-color: var(--color1);
+  color: var(--color2);
+}
+
+table {
+  margin: 80px 100px 40px 100px;
+  font-family: comicsan;
+}
+
+.css {
+  padding: 15px;
+  font-size: 10px;
+}

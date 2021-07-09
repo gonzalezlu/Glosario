@@ -1,0 +1,51 @@
+header {
+  width: 100%;
+  min-height: 7.5rem;
+  background-color: var(--color1);
+  padding: 0 5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  color: var(--color5);
+  font-size: var(--titulo-h2);
+}
+.nav {
+  list-style: none;
+}
+
+/*Elementos de la lista interactiva*/
+
+.nav li ol li {
+  display: none;
+  margin: 10px;
+}
+.nav:hover {
+  background-color: var(--color1);
+}
+.nav li:hover {
+  background-color: var(--color1);
+}
+.nav li:hover > ol li {
+  display: block;
+  background-color: var(--color1);
+}
+.pas {
+  font-size: 24px;
+}
+.pas a {
+  text-decoration: none;
+  color: var(--color3);
+}
+.pas a:hover {
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+@media only screen and( max-width : 375px) {
+
+
+}
